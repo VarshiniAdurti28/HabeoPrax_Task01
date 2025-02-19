@@ -1,5 +1,6 @@
 # HabeoPrax_Task01
-- Build a Replica of Flipkart Using HTML, CSS and JS (No React for now)
+## Build a Replica of Flipkart Using HTML, CSS and JS (No React for now)
+
 ![image](https://github.com/user-attachments/assets/bc0a3984-e5c1-4b7c-9188-b2f6852b19cd)
 
 - Implement the search functionality, navbar with dropdowns
@@ -7,7 +8,6 @@
 
 ## Bonus:
 - Implement the sorting and filtering menu with all the functionalities.
-
 
 ![image](https://github.com/user-attachments/assets/1ab60c86-fcd8-4d74-b7fb-b9d79dab3783)
 
