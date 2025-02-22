@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    background-color: white;
+    padding: 12px 28px;
+    height: 78px;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+}
+
+body{
+    background-color: #F1F2F4;
+}
+
+#logo_name{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: #2A55E5;
+    font-weight: bold;
+}
+
+#sub_logo{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#sub_logo_1{
+    color: #9e9e9e;
+    font-size: 12px;
+    font-style: italic;
+    font-family: sans-serif;  
+    font-weight: bold;
+}
+
+#input_data{
+    border: none;
+    width: 500px;
+    height: 20px;
+   padding-left: 12px;
+   background-color: #F0F5FF;
+}
+
+.navtab{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    justify-content: center;
+}
+
+#searchbar{
+    background-color: #F0F5FF;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+option{
+    font-size: 15px; 
+    font-family: sans-serif;
+}
+
+select{
+    border: none;
+    font-size: 15px; 
+    font-family: sans-serif;
+}
+
+#categories{
+    display: flex;
+    justify-content: space-around;
+    margin: 12px;
+    margin: auto;
+    width: 95%;
+    background-color: white;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+#categories > div > img{
+    height: 70px;
+    width: 60px;
+    background-color: white;
+ }
+ 
+ #categories > div{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ font-weight: bold;
+ font-size: 14px;
+ padding: 10px;
+ }
+ 
+ #categories > div > p{
+     padding-top: 10px;
+ }
+
+ #carousal{
+    margin-top: 15px;
+ }
+ 
+
+
+
