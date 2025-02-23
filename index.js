@@ -65,4 +65,29 @@ let arr = [
    document.getElementById("categories").append(box);
   
   })
+
   
+  // Get necessary elements
+  const loginButton = document.querySelector('.login-button');
+  const dropdownContent = document.querySelector('.dropdown-content');
+  const arrow = document.querySelector('.arrow');
+
+  // Toggle dropdown on button click
+  loginButton.addEventListener('click', (e) => {
+      e.stopPropagation(); // Prevent event from bubbling up
+      dropdownContent.classList.toggle('show');
+      arrow.classList.toggle('up');
+  });
+
+  // Close dropdown when clicking outside
+  document.addEventListener('click', (e) => {
+      if (!e.target.closest('.login-container')) {
+          dropdownContent.classList.remove('show');
+          arrow.classList.remove('up');
+      }
+  });
+
+  // Prevent dropdown from closing when clicking inside it
+  dropdownContent.addEventListener('click', (e) => {
+      e.stopPropagation();
+  });

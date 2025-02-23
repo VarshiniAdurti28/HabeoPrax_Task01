@@ -115,6 +115,101 @@ select{
  #carousal{
     margin-top: 15px;
  }
+
+
+ .login-container {
+    position: relative;
+    display: inline-block;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background-color: white;
+    border:none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #2874f0;
+    color: white;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    transition: transform 0.3s;
+    margin-top: -2px;
+}
+
+.login-button:hover .arrow {
+    border-color: white;
+}
+
+.arrow.up {
+    transform: rotate(-135deg);
+    margin-top: 2px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 250px;
+    border: none;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-top: 4px;
+    z-index: 1000;
+}
+
+.dropdown-content.show {
+    display: block;
+}
+
+.new-customer {
+    padding: 16px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.new-customer p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.new-customer a {
+    color: #2874f0;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    font-size: 14px;
+}
+
+.menu-item:hover {
+    background-color: #f5f5f5;
+}
  
 
 
