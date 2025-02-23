@@ -1,0 +1,22 @@
+#body {
+  background-color: rgb(241,242,244);
+ 
+}
+
+#flipkartlogo {
+ padding-left: 10px;
+}
+
+#seachtext {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#searchflex{
+   border-radius: 10px;
+  background-color: rgb(240,245,255);
+  font-size: 19px;
+  margin-left: -600px;
+}
+#login {
+
+}
