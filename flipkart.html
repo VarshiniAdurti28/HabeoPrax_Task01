@@ -8,28 +8,32 @@
   <link rel="stylesheet" href="header.css">
   <title id="title"></title>
 
-<body id="body">
-    <div id="header" class="flex justify-around h-17 mt-1 items-center  bg-amber-100"> 
-      <div class="w-100 mr-0"><img src="images/flipkartlogo.svg" id="flipkartlogo"></div>
-      <div id="searchflex" class="flex items-center h-10 w-200 ">
-        <div class="pl-3"><svg width="24" height="24" class= viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Search Icon</title><path d="M10.5 18C14.6421 18 18 14.6421 18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18Z" stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16 16L21 21" stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+<body id="body" class="bg-red-400">
+  <header>
+    <div id="navbar" class=" flex items-center pl-7 pr-7 pt-3 pb-3 h-16 ">
+      <div id="flipkartlogo" class="ml-40" > 
+        <img src="images/flipkartlogo.svg">
+      </div>
+      <div id="searchbox" class="flex ml-10">
+        <search>
+          <div id="searchicon" class="flex items-center"> <svg width="24" height="24" class="" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Search Icon</title><path d="M10.5 18C14.6421 18 18 14.6421 18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18Z" stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16 16L21 21" stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
 
-        <input type="text" placeholder="Search for Products, Brands and More" id="searchtext" class="w-100 pl-2 ml-0 mr-0"></div>
-      <div id="login" class="flex items-center justify-around"> <img src="images/login.svg"> 
-        <div class="pl-2  ">Login</div>
-        
-           <img src="images/login.svg"> 
-          <div class="pl-2  ">Login</div>
+          <div id="searchtext" class="flex items-center pl-2"> <input type="text" placeholder="Search for Products, Brands and More" class="w-100" id="text"></div>
+         
+        </search>
+       </div>
+     
+        <div id="iconsinheader" class="flex items-center">
+          <div id="login" class="flex items-center"><img src="images/login.svg" class="flex"> Login</div>
           
-          <img src="images/login.svg"> 
-            <div class="pl-2 ">Login</div>
+          <div id="cart" class="flex items-center"><img src="images/cart.svg" class="pl-10"> Cart</div>
+          <div id="becomeaseller" class="flex items-center"><img src="images/becomeaseller.svg" class="pl-10"> Become a Seller</div>
+          <div id="threedots"><img src="images/3dotsattheend.svg" class="pl-10"></div>
+        </div>
+      </div>
+    
+  </header>
 
-             <img src="images/login.svg"> 
-              <div class="pl-2 ">Login</div>
-              <img src="images/login.svg"> 
-                <div class="pl-2  ">Login</div>
-        
-    </div>
   
   <script src="flipkart.js"></script>
 </body>
