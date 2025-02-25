@@ -13,3 +13,37 @@ border:border-box;
   height: 40px;
   font-size: 18px;
 }
+
+#searchbox {
+  background-color: rgb(240,245,255);
+  border-radius: 5px;
+}
+
+#mainnav {
+  width: 1600px;
+  height: 126px;
+}
+
+._2puWtW_3a3qyb{
+  display:block;
+  align-items: center;
+  justify-content: center;
+ flex-direction: row;
+ height:64px;
+
+}
+
+#imageclass{
+  display:block;
+  align-items: center;
+  justify-content: center;
+ flex-direction: row;
+ height:64px;
+}
+.home_furniture {
+display:block;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+height:64px;
+}
