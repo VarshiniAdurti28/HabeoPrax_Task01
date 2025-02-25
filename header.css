@@ -11,12 +11,14 @@ border:border-box;
 #text {
   width: 772px;
   height: 40px;
-  font-size: 18px;
+  padding-left: 10px;
 }
 
 #searchbox {
   background-color: rgb(240,245,255);
   border-radius: 5px;
+  height: 40px;
+  
 }
 
 #mainnav {
@@ -30,7 +32,7 @@ border:border-box;
   justify-content: center;
  flex-direction: row;
  height:64px;
-
+ 
 }
 
 #imageclass{
@@ -39,11 +41,32 @@ border:border-box;
   justify-content: center;
  flex-direction: row;
  height:64px;
-
+ cursor: pointer;
  
 }
 .home_furniture {
 display:block;
 
 height:64px;
+}
+
+#flipkartlogo {
+ cursor: pointer;
+}
+#searchicon {
+  cursor: pointer;
+}
+#icons {
+  cursor: pointer;
+}
+#cursorneeded {
+  cursor: pointer;
+}
+
+#searchtext {
+  padding-bottom: 15px;
+}
+
+#text::placeholder {
+  font-size: 17px;
 }
