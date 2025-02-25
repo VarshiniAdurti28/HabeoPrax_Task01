@@ -18,6 +18,40 @@ height:400px;
 #sidead {
   height: 450px;
   width: 253px;
-  margin-left: 1535px;
+  margin-left: 1530px;
   margin-top: -425px;
+}
+
+#itemsinbody {
+
+  display:block;
+
+  width: 152px;
+  height: 152px;
+
+ margin-top:75px
+}
+
+#text {
+  font-size: 14px;
+  margin-top: 15px;
+  text-align: bottom;
+  
+}
+#text2 {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: bottom;
+  margin-top: -20px;
+}
+#itemsinbody2 {
+
+  display:block;
+
+
+  width: 152px;
+  height: 152px;
+ 
+
 }
