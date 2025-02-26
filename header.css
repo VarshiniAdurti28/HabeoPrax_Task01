@@ -58,6 +58,7 @@ height:64px;
 }
 #icons {
   cursor: pointer;
+ 
 }
 #cursorneeded {
   cursor: pointer;
@@ -69,4 +70,53 @@ height:64px;
 
 #text::placeholder {
   font-size: 17px;
+}
+#login {
+  transition: all 0.1s ease-in-out;
+
+}
+#login::after{
+  content: "  ^";
+}
+#login:hover::after {
+  content: " v";
+}
+#login:hover {
+  background-color: rgb(42,85,229);
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  padding-left: 4px;
+  
+}
+#loginbutton {
+  cursor: pointer;
+  
+}
+.loginmenu {
+  display:none;
+  position: absolute;
+  color: black;
+  background-color: white;
+  min-width: 225px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+#login:hover .loginmenu {
+  margin-top: 340px;
+  margin-left: -5px;
+  display: block;
+}
+
+.loginmenu a{
+  display: block;
+  padding-top: 15px;
+  color: black;
+  background-color: white;
+  
+}
+
+
+.signup {
+  color:rgb(42,85,229); ;
 }
