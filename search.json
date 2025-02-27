@@ -1,0 +1,142 @@
+{
+  "stuff": [
+    {
+      "name": "Samsung Galaxy S23 Ultra",
+      "price": 124999,
+      "supplier": "Samsung Official Store",
+      "company": "Samsung"
+    },
+    {
+      "name": "Apple iPhone 15 Pro Max",
+      "price": 159999,
+      "supplier": "Apple India",
+      "company": "Apple"
+    },
+    {
+      "name": "Sony WH-1000XM5 Headphones",
+      "price": 29990,
+      "supplier": "Sony Authorized Dealer",
+      "company": "Sony"
+    },
+    {
+      "name": "ASUS ROG Strix G16 Laptop",
+      "price": 134990,
+      "supplier": "ASUS Exclusive Store",
+      "company": "ASUS"
+    },
+    {
+      "name": "OnePlus 11 5G",
+      "price": 61999,
+      "supplier": "OnePlus India",
+      "company": "OnePlus"
+    },
+    {
+      "name": "boAt Airdopes 141",
+      "price": 1299,
+      "supplier": "boAt Lifestyle",
+      "company": "boAt"
+    },
+    {
+      "name": "Samsung 55-inch 4K Smart TV",
+      "price": 57999,
+      "supplier": "Samsung Electronics",
+      "company": "Samsung"
+    },
+    {
+      "name": "Realme Narzo 60 5G",
+      "price": 18999,
+      "supplier": "Realme Official",
+      "company": "Realme"
+    },
+    {
+      "name": "HP Pavilion 15 Laptop",
+      "price": 74999,
+      "supplier": "HP Authorized Store",
+      "company": "HP"
+    },
+    {
+      "name": "Nike Revolution 6 Running Shoes",
+      "price": 3499,
+      "supplier": "Nike India",
+      "company": "Nike"
+    },
+    {
+      "name": "Fossil Gen 6 Smartwatch",
+      "price": 19999,
+      "supplier": "Fossil Official",
+      "company": "Fossil"
+    },
+    {
+      "name": "Lenovo IdeaPad Gaming 3",
+      "price": 62990,
+      "supplier": "Lenovo Exclusive Store",
+      "company": "Lenovo"
+    },
+    {
+      "name": "Redmi Note 12 Pro 5G",
+      "price": 25999,
+      "supplier": "Xiaomi India",
+      "company": "Redmi"
+    },
+    {
+      "name": "Oppo Enco X2 Earbuds",
+      "price": 10999,
+      "supplier": "Oppo Official",
+      "company": "Oppo"
+    },
+    {
+      "name": "Samsung Galaxy Tab S9",
+      "price": 85999,
+      "supplier": "Samsung India",
+      "company": "Samsung"
+    },
+    {
+      "name": "Dell Inspiron 14 Laptop",
+      "price": 56990,
+      "supplier": "Dell Authorized Seller",
+      "company": "Dell"
+    },
+    {
+      "name": "Mi Power Bank 3i 20000mAh",
+      "price": 1899,
+      "supplier": "Mi Store",
+      "company": "Xiaomi"
+    },
+    {
+      "name": "JBL Flip 6 Bluetooth Speaker",
+      "price": 11999,
+      "supplier": "JBL India",
+      "company": "JBL"
+    },
+    {
+      "name": "Samsung 256GB EVO Plus microSD",
+      "price": 2499,
+      "supplier": "Samsung Storage",
+      "company": "Samsung"
+    },
+    {
+      "name": "Canon EOS 1500D DSLR Camera",
+      "price": 39990,
+      "supplier": "Canon Exclusive",
+      "company": "Canon"
+    },
+    {
+      "name": "LG 7kg Fully Automatic Washing Machine",
+      "price": 23499,
+      "supplier": "LG Electronics",
+      "company": "LG"
+    },
+    {
+      "name": "Philips Air Fryer HD9252",
+      "price": 9999,
+      "supplier": "Philips Kitchen Appliances",
+      "company": "Philips"
+    },
+    {
+      "name": "Casio G-Shock GA-2100",
+      "price": 8999,
+      "supplier": "Casio India",
+      "company": "Casio"
+    }
+  ]
+}

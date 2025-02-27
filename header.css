@@ -1,0 +1,154 @@
+* {
+  border: 0;
+font-family: Arial, Helvetica, sans-serif;
+border:border-box;
+}
+#body {
+  background-color: rgb(241,242,244);
+ 
+}
+
+#text {
+  width: 772px;
+  height: 40px;
+  padding-left: 10px;
+}
+
+#searchbox {
+  background-color: rgb(240,245,255);
+  border-radius: 5px;
+  height: 40px;
+  
+}
+
+#mainnav {
+  width: 1620px;
+  height: 126px;
+}
+
+._2puWtW_3a3qyb{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+ flex-direction: row;
+ height:64px;
+ 
+}
+
+#imageclass{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+ flex-direction: row;
+ height:64px;
+ cursor: pointer;
+ 
+}
+.home_furniture {
+display:block;
+
+height:64px;
+}
+
+#flipkartlogo {
+ cursor: pointer;
+}
+#searchicon {
+  cursor: pointer;
+}
+#icons {
+  cursor: pointer;
+ 
+}
+#cursorneeded {
+  cursor: pointer;
+}
+
+#searchtext {
+  padding-bottom: 15px;
+}
+
+#text::placeholder {
+  font-size: 17px;
+}
+#login {
+  transition: all 0.1s ease-in-out;
+
+}
+#login::after{
+  content: "  ^";
+}
+#login:hover::after {
+  content: " v";
+}
+#login:hover {
+  background-color: rgb(42,85,229);
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  padding-left: 4px;
+  
+}
+#loginbutton {
+  cursor: pointer;
+  
+}
+.loginmenu {
+  display:none;
+  position: absolute;
+  color: black;
+  background-color: white;
+  min-width: 225px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+#login:hover .loginmenu {
+  margin-top: 340px;
+  margin-left: -5px;
+  display: block;
+}
+
+.loginmenu a{
+  display: block;
+  padding-top: 15px;
+  color: black;
+  background-color: white;
+}
+
+
+.signup {
+  color:rgb(42,85,229); ;
+}
+
+
+ .dotsnavigation{
+  display: none;
+  position: absolute;
+  color: black;
+  background-color: white;
+  min-width: 225px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+#dotsattheend:hover .dotsnavigation {
+  display: block;
+  margin-top: 200px;
+  margin-left: -5px;
+
+}
+
+
+.dotsnavigation a{
+  display: block;
+  padding-top: 15px;
+  color: black;
+  background-color: white;
+  
+}
+#dotscolor:hover {
+  background-color: rgb(206, 204, 204); 
+  cursor: pointer;
+
+ 
+}
