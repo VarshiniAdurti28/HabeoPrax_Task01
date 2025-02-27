@@ -113,10 +113,42 @@ height:64px;
   padding-top: 15px;
   color: black;
   background-color: white;
-  
 }
 
 
 .signup {
   color:rgb(42,85,229); ;
+}
+
+
+ .dotsnavigation{
+  display: none;
+  position: absolute;
+  color: black;
+  background-color: white;
+  min-width: 225px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+#dotsattheend:hover .dotsnavigation {
+  display: block;
+  margin-top: 200px;
+  margin-left: -5px;
+
+}
+
+
+.dotsnavigation a{
+  display: block;
+  padding-top: 15px;
+  color: black;
+  background-color: white;
+  
+}
+#dotscolor:hover {
+  background-color: rgb(206, 204, 204); 
+  cursor: pointer;
+
+ 
 }
